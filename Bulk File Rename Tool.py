@@ -6,7 +6,6 @@ for file in os.listdir(directory):
     if file.endswith(formatFile) or file.endswith(formatFile.upper()):
        nameOfPath+=[os.path.join(directory, file)]
 c=0
-for i in nameOfPath: print(i)
 shablon=input("Какой шаблон использовать ? -> ")
 
 for i in nameOfPath:
